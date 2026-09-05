@@ -1,0 +1,26 @@
+{
+  "results_by_model": {
+    "Logistic Regression": {
+      "accuracy": 0.773,
+      "precision": 0.624,
+      "recall": 0.43
+    },
+    "Random Forest": {
+      "accuracy": 0.749,
+      "precision": 0.556,
+      "recall": 0.406
+    },
+    "Gradient Boosting": {
+      "accuracy": 0.772,
+      "precision": 0.625,
+      "recall": 0.413
+    }
+  },
+  "best_model": "Logistic Regression",
+  "confusion_matrix": {
+    "tn": 1285,
+    "fp": 139,
+    "fn": 306,
+    "tp": 231
+  }
+}
